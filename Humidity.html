@@ -3,7 +3,7 @@
 
 <head>
 
-  <title>Web-Design-Challenge</title>
+  <title>Lat Vs. Humidity</title>
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -24,7 +24,7 @@
   <nav class = "navbar navbar-expand-sm bg-light">
 
     <!-- Navbar Logo -->
-    <a href = "https://latha-g.github.io/Web-Design-Challenge/index.html"> <h2 class = "text-info"> Latitude </h2> </a>
+    <a href = "Index.html"> <h2 class = "text-info"> Latitude </h2> </a>
 
     <!-- Start of Navbar Links (Plots, Comparision and Data) -->
     <ul class = "navbar-nav ml-auto">
@@ -57,31 +57,32 @@
     </ul> <!-- End of Navbar Links -->
       
   </nav> <!-- End of Navbar -->
+  
   <!------------------------------------------------------------------->
 
-    
-  <!-- Jumbotron for the body below Navbar -->
-  <div class = "jumbotron p -5 m -5 border-top border-bottom border-success" >
+  <!-- Container for body -->
+  <div class = "jumbotron  p -5 m -5  border-top border-bottom border-success" >
 
     <section class = "row justify-content-around">
 
-      <!-- Start of Summary: Latitude Vs. X -->
-      <div class = "col-sm-6 py-3 my-3 rounded border" style = "background-color:white;">
+      <!-- Start of Latitude Vs Humidity -->
+      <div class="col-sm-7 py-3 my-3 rounded" style ="background-color:white;">
 
-        <h2> <p class="text-info">Summary: Latitude Vs. X </p> </h2> <hr>
+        <h2><p class = "text-info">Latitude Vs Humidity</p></h2> <hr>
               
-        <img src = "images/LatVsMaxTemp.png"  alt = "Lat vs Temp" class="image-fluid" style = "width:80%; height:auto; display:block; margin-left:auto; margin-right:auto;"> </img>
+        <img src="images/LatVsHumidity.png"  alt="Lat vs Humidity" class="image-fluid mx-auto" style = "width:80%; height:auto; display:block; margin-left:auto; margin-right:auto;"> </img>
               
-        <p> The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
+        <article> As expected , the weather becomes significantly warmer as one approaches the equator (0 Deg. Latitude).</article>
 
-        <p> After assembling the dataset, we used Matplotlib to plot various aspects fo the weather vs. latitude. Factors we look at included: temperature, cloudiness, wind speed, and humidity.</p>
-        
-        <p>This site provides the sources data and visualizations created as part of the analysis, as well as explanations and descriptions of any trees and correlations witnessed.</p>
+        <article>  More interestingly, however, is the fact that southern hemisphere tends to be warmer this time of year than the northern hemisphere. This may be due to the tilt of the earth at the time of the year this data was gathered.  </article>
 
-      </div> <!-- End of Summary: Latitude Vs. X -->
-         
+
+      </div> <!-- End of Latitude Vs. Humidity -->
+          
+     <!------------------------------------------------------------------->
+      
       <!-- Start of Visualizations -->
-      <div class = "col-sm-5">
+      <div class = "col-sm-4">
 
         <div class = "container-fluid py-3 my-3 rounded border" style = "background-color :white;" >
 
@@ -108,11 +109,12 @@
 
         </div>
 
-      </div> <!-- End of Visualizations Area-->  
+      </div> <!-- End of Visualizations Area--> 
 
-    </section>
+    </section> 
 
-  </div> <!-- End of Jumbotron for the body -->
+  </div> <!-- End of container for body -->
 
 </body> 
 </html>
+
