@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <title>Lat Vs LatVsMaxTemp</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"> </script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"> </script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"> </script>
+
+</head>
+
+<body>
+ 
+  <!-- Start of Navbar -->
+  <nav class = "navbar navbar-expand-sm bg-light">
+
+    <!-- Navbar Logo -->
+    <a href = "index.html"> <h2 class = "text-info"> Latitude </h2> </a>
+
+    <!-- Start of Navbar Links (Plots, Comparision and Data) -->
+    <ul class = "navbar-nav ml-auto">
+        
+      <!-- Start of Plots dropdown -->
+      <li class = "nav-item dropdown">
+
+        <a class = "nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle ="dropdown"> Plots </a>
+
+        <!-- Start of dropdown menu-->
+        <div class = "dropdown-menu">
+            <a class = "dropdown-item" href="MaxTemp.html"> Max Temperature </a>
+            <a class = "dropdown-item" href = "Humidity.html"> Humidity </a>
+            <a class = "dropdown-item" href = "Cloudiness.html"> Cloudiness </a>
+            <a class = "dropdown-item" href = "WindSpeed.html"> Wind Speed </a>
+        </div> <!-- End of dropdown menu-->
+
+      </li>  <!-- End of Plots dropdown -->
+
+      <!-- Link to Comparisions -->
+      <li class = "nav-item">
+        <a class = "nav-link" href = "Comparisions.html"> Comparisions </a>
+      </li> 
+
+      <!-- Link to Data -->
+      <li class = "nav-item">
+        <a class = "nav-link" href = "Data.html" > Data </a>
+      </li>
+
+    </ul> <!-- End of Navbar Links -->
+      
+  </nav> <!-- End of Navbar -->
+  
+  <!------------------------------------------------------------------->
+
+  <!-- Container for body -->
+  <div class = "jumbotron  p -5 m -5  border-top border-bottom border-success" >
+
+    <section class = "row justify-content-around">
+
+      <!-- Start of Latitude Vs Max Temperature -->
+      <div class="col-sm-6 py-3 my-3" style ="background-color:white;">
+
+        <h2><p class = "text-info">Latitude Vs Max Temperature</p></h2> <hr>
+              
+        <img src="../Images/LatVsMaxTemp.png"  alt="Lat vs Temp" class="image-fluid mx-auto mx-auto" style = "width:95%;"> </img>
+              
+        <article> As expected , the weather becomes significantly warmer as one approaches the equator (0 Deg. Latitude).</article>
+
+        <article>  More interestingly, however, is the fact that southern hemisphere tends to be warmer this time of year than the northern hemisphere. This may be due to the tilt of the earth at the time of the year this data was gathered.  </article>
+
+
+      </div> <!-- End of Latitude Vs. Max Temperature -->
+      
+      <!------------------------------------------------------------------->
+
+      <!-- Start of Visualizations -->
+      <div class = "col-sm-5">
+        
+        <div class = "container py-3 my-3" style = "background-color :white;" >
+
+          <h2> <p class="text-info"> Visualizations </p> </h2> <hr> <br>
+                
+          <!-- Start of images -->           
+          <div>  
+                    
+            <a href = "MaxTemp.html"> 
+            <img src = "../Images/LatVsMaxTemp.png" alt = "Lat Vs. Max Temp" class = "image-fluid mx-auto" style = "width:49%;" > </img> </a>
+                    
+            <a href = "Humidity.html"> 
+            <img src = "../Images/LatVsHumidity.png" alt = "Lat Vs. Humidity" class = "image-fluid mx-auto" style = "width:49%;" > </img> </a>
+                    
+            <a href = "Cloudiness.html"> 
+            <img src = "../Images/LatVsCloudiness.png" alt = "Lat Vs. Cloudiness" class ="image-fluid mx-auto" style = "width:49%;" > </img> </a>
+                    
+            <a href = "WindSpeed.html"> 
+            <img src = "../Images/LatVsWindSpd.png" alt = "Lat Vs. Wind speed" class = "image-fluid mx-auto" style = "width:49%;" > </img> </a>
+
+            <br> <br>
+                          
+          </div> <!-- End of images --> 
+
+        </div>  <!-- End of Container --> 
+          
+      </div> <!-- End of Visualizations Area--> 
+
+    </section> 
+
+  </div> <!-- End of container for body -->
+
+</body> 
+</html>
+

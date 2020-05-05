@@ -3,7 +3,7 @@
 
 <head>
 
-  <title>Lat Vs. Humidity</title>
+  <title>Web-Design-Challenge</title>
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -57,63 +57,43 @@
     </ul> <!-- End of Navbar Links -->
       
   </nav> <!-- End of Navbar -->
-  
   <!------------------------------------------------------------------->
-
-  <!-- Container for body -->
+    
+    
+  <!-- Start of Jumbotron for the body below Navbar -->
   <div class = "jumbotron  p -5 m -5  border-top border-bottom border-success" >
-
+    
     <section class = "row justify-content-around">
 
-      <!-- Start of Latitude Vs Humidity -->
-      <div class="col-sm-6 py-3 my-3" style ="background-color:white;">
+      <!-- Start of Visualizations Area-->
+      <div class="col-sm-10 py-3 my-3" style = "background-color:white;">
+      
+          <br> <h2 class="text-info"> Comparisions: Latitude Vs. X </h2> <hr> 
+          <br>
+          <h5> Click to any plot to get an in-depth analysis. </h5> <br>           
+                  
+            <!-- Start of ../Images -->           
+            <div>
 
-        <h2><p class = "text-info">Latitude Vs Humidity</p></h2> <hr>
-              
-        <img src="images/LatVsHumidity.png"  alt="Lat vs Humidity" class="image-fluid mx-auto" style = "width:95%; margin-left:auto; margin-right:auto;"> </img>
-              
-        <article> No correlation is found between Humidity and Latitude.
-        </article>
+              <a href = "MaxTemp.html"> 
+              <img src = "../Images/LatVsMaxTemp.png" alt = "Lat Vs. Max Temp" class = "image-fluid mx-auto" style = "width:49%;" > </img> </a>
+                      
+              <a href = "Humidity.html"> 
+              <img src = "../Images/LatVsHumidity.png" alt = "Lat Vs. Humidity" class = "image-fluid mx-auto" style = "width:49%;" > </img> </a>
+                      
+              <a href = "Cloudiness.html"> 
+              <img src = "../Images/LatVsCloudiness.png" alt = "Lat Vs. Cloudiness" class = "image-fluid mx-auto" style = "width:49%;"> </img></a>
+                      
+              <a href = "WindSpeed.html"> 
+              <img src = "../Images/LatVsWindSpd.png" alt = "Lat Vs. Wind speed" class = "image-fluid mx-auto" style = "width:49%;" > </img> </a>
+                                           
+            </div> <!-- End of ../Images --> 
 
+      </div> <!-- End of Visualizations Area-->  
 
-      </div> <!-- End of Latitude Vs. Humidity -->
-          
-      <!------------------------------------------------------------------->
+    </section>
 
-      <!-- Start of Visualizations -->
-      <div class = "col-sm-5">
-        
-        <div class = "container py-3 my-3" style = "background-color :white;" >
-
-          <h2> <p class="text-info"> Visualizations </p> </h2> <hr> <br>
-                
-          <!-- Start of Images -->           
-          <div>  
-                    
-            <a href = "MaxTemp.html"> 
-            <img src = "images/LatVsMaxTemp.png" alt = "Lat Vs. Max Temp" class = "image-fluid mx-auto" style = "width:49%;" > </img> </a>
-                    
-            <a href = "Humidity.html"> 
-            <img src = "images/LatVsHumidity.png" alt = "Lat Vs. Humidity" class = "image-fluid mx-auto" style = "width:49%;" > </img> </a>
-                    
-            <a href = "Cloudiness.html"> 
-            <img src = "images/LatVsCloudiness.png" alt = "Lat Vs. Cloudiness" class ="image-fluid mx-auto" style = "width:49%;" > </img> </a>
-                    
-            <a href = "WindSpeed.html"> 
-            <img src = "images/LatVsWindSpd.png" alt = "Lat Vs. Wind speed" class = "image-fluid mx-auto" style = "width:49%;" > </img> </a>
-
-            <br> <br>
-                          
-          </div> <!-- End of Images --> 
-
-        </div>  <!-- End of Container --> 
-          
-      </div> <!-- End of Visualizations Area--> 
-
-    </section> 
-
-  </div> <!-- End of container for body -->
+  </div> <!-- End of Jumbotron for The body below Navbar -->
 
 </body> 
 </html>
-
