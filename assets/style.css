@@ -1,17 +1,16 @@
 #Logo {
-    background-color: aquamarine;
-    font-size: 30px;
-    font-weight: bolder;
-    color: black;
-    height: 100%;
+    background-color: darkblue;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
 }
 
-.img-visual {
-    
-margin-left: auto;
-margin-right: auto;
-width: 49%;
-height: auto;
+#img-visual { 
+    margin-left: auto;
+    margin-right: auto;
+    width: 49%;
+    height: auto;
 }
 
 #jumbo {   
