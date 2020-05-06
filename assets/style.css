@@ -1,0 +1,27 @@
+#Logo {
+    background-color: aquamarine;
+    font-size: 30px;
+    font-weight: bolder;
+    color: black;
+    height: 100%;
+}
+
+.img-visual {
+    
+margin-left: auto;
+margin-right: auto;
+width: 49%;
+height: auto;
+}
+
+#jumbo {   
+    padding: 25px;
+    margin: 5px;
+    border-color: darkgreen;
+    border-top: 1px;
+
+
+}
+/*
+border-top border-bottom border-succes
+*/

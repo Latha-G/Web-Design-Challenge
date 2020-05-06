@@ -8,6 +8,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <link rel="stylesheet" href = "assets/style.css">
+
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"> </script>
@@ -24,7 +26,7 @@
   <nav class = "navbar navbar-expand-sm bg-light">
 
     <!-- Navbar Logo -->
-    <a href = "index.html"> <h2 class = "text-info"> Latitude </h2> </a>
+    <a href = "index.html" class = "navbar-brand " id = 'Logo'> Latitude </a>
 
     <!-- Start of Navbar Links (Plots, Comparision and Data) -->
     <ul class = "navbar-nav ml-auto">
@@ -61,7 +63,7 @@
 
     
   <!-- Jumbotron for the body below Navbar -->
-  <div class = "jumbotron p -5 m -5 border-top border-bottom border-success" >
+  <div class = "jumbotron  p -5 m -5 border-top border-bottom border-success" >
 
     <section class = "row justify-content-around">
 
@@ -70,7 +72,7 @@
 
         <h2> <p class="text-info">Summary: Latitude Vs. X </p> </h2> <hr>
               
-        <img src = "Images/LatVsMaxTemp.png" alt = "Lat vs Temp" class = "image-fluid mx-automx-auto " style = " width:95%" > </img>
+        <img src = "LatVsMaxTemp.png" alt = "Lat vs Temp" class = "image-fluid mx-auto " style = " width:95%" > </img>
               
         <p> The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset of over 500 cities.</p>
 
@@ -91,16 +93,16 @@
           <div>  
                     
             <a href = "MaxTemp.html"> 
-            <img src = "Images/LatVsMaxTemp.png" alt = "Lat Vs. Max Temp" class = "image-fluid mx-auto" style = "width:255px;" > </img> </a>
+            <img src = "LatVsMaxTemp.png" alt = "Lat Vs. Max Temp" class = "image-fluid mx-auto" style = "width:255px;" > </img> </a>
                     
             <a href = "Humidity.html"> 
-            <img src = "Images/LatVsHumidity.png" alt = "Lat Vs. Humidity" class = "image-fluid mx-auto" style = "width:255px;" > </img> </a>
+            <img src = "LatVsHumidity.png" alt = "Lat Vs. Humidity" class = "image-fluid mx-auto" style = "width:255px;" > </img> </a>
                     
             <a href = "Cloudiness.html"> 
-            <img src = "Images/LatVsCloudiness.png" alt = "Lat Vs. Cloudiness" class = "image-fluid mx-auto" style = "width:255px;"> </img></a>
+            <img src = "LatVsCloudiness.png" alt = "Lat Vs. Cloudiness" class = "image-fluid mx-auto" style = "width:255px;"> </img></a>
                     
             <a href = "WindSpeed.html"> 
-            <img src = "Images/LatVsWindSpd.png" alt = "Lat Vs. Wind speed" class = "image-fluid mx-auto" style = "width:255px;" > </img> </a>
+            <img src = "LatVsWindSpd.png" alt = "Lat Vs. Wind speed" class = "image-fluid mx-auto" style = "width:255px;" > </img> </a>
                           
           </div> <!-- End of images --> 
 
