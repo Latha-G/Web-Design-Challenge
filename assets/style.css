@@ -1,4 +1,4 @@
-#Logo {
+#Logo{
     background-color: darkblue;
     font-size: 26px;
     font-weight: bold;
@@ -6,14 +6,14 @@
     color: white;
 }
 
-#img-visual { 
+#img-visual{ 
     margin-left: auto;
     margin-right: auto;
     width: 49%;
     height: auto;
 }
 
-#jumbo {   
+#jumbo{   
     padding: 25px;
     margin: 5px;
     border-color: darkgreen;
