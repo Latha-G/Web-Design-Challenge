@@ -1,9 +1,9 @@
-## Web Visualization Dashboard (Latitude Vs Weather)
+# Web Visualization Dashboard (Latitude Vs Weather)
 
 ### The website is published at https://latha-g.github.io/Web-Design-Challenge/
+----
 
-
-## Latitude Analysis Dashboard with Attitude
+## Latitude Analysis Dashboard with Attitude:
 
 Data is more powerful when we share it with others! I've created a visualization dashboard website using visualizations we've created in a past assignment. Specifically, we'll be plotting [weather data](Resources/cities.csv).
 
